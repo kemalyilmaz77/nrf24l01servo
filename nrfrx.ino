@@ -1,6 +1,6 @@
 #include <SPI.h>
 #include "nRF24L01.h"
-#include "RF24.h"           //Modül ile ilgili kütüphaneleri ekliyoruz
+#include "RF24.h"
 #include <Servo.h>
 byte data[10];
 RF24 nrf(9,10);// nrf pinleri
