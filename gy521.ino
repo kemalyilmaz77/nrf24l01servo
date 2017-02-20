@@ -28,6 +28,7 @@ void loop()
   int ServoRoll = map(Roll, -90, 90, 0, 179);
   int ServoPitch = map(Pitch, -90, 90, 179, 0);
  
+ 
  // ServoX.write(ServoRoll);
   //ServoY.write(ServoPitch);
   data[0] = ServoPitch; 
